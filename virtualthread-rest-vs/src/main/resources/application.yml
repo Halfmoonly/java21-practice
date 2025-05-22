@@ -1,0 +1,9 @@
+server:
+  tomcat:
+    threads:
+      max: 200
+spring:
+  threads:
+    virtual:
+      enabled: false # 是否启用虚拟线程
+#      enabled: true # 是否启用虚拟线程
